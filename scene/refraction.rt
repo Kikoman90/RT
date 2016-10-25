@@ -1,0 +1,94 @@
+<scene>
+	<name> 	{cylinder.rt}	</name>
+	<res> {800 800} </res>
+	<maxref> {1} </maxref>
+	<AA> {2} </AA>
+	<ambiant> {0} </ambiant>
+</scene>
+
+<camera>  
+	<pos> {x0.00 y0.00 z-20.00} </pos>
+	<dir> {x0.0 y0.0 z1.0} </dir>
+</camera>
+
+<light>
+	<pos> {x7.00 y0.00 z0.00} </pos>
+	<rgb> {r250 g250 b250} </rgb>
+</light>
+
+<object>
+	<type> {plane} </type>
+	<pos>	{x0.00 y-3.99 z13.00} </pos>
+	<dir>	{x0.0 y0.0 z1.0} </dir>
+	<rgb> {r100 g100 b100} </rgb>
+	<reflect> {off c0.5} </reflect>
+	<refract> {off} </refract>
+	<texture> {damier} </texture>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{x-7.00 y10.00 z10.0} </pos>
+	<dir>	{x0.0 y0.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r0 g250 b0} </rgb>
+	<reflect> {off c0.0} </reflect>
+	<spec> {off} </spec>
+	<refract> {on r1.01 c0.0} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{x0.00 y10.00 z10.0} </pos>
+	<dir>	{x0.0 y0.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r0 g250 b0} </rgb>
+	<reflect> {off c0.0} </reflect>
+	<spec> {off} </spec>
+	<refract> {on r1.01 c0.25} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{x7.00 y10.00 z10.0} </pos>
+	<dir>	{x0.0 y0.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r0 g250 b0} </rgb>
+	<reflect> {off c0.0} </reflect>
+	<spec> {off} </spec>
+	<refract> {on r1.01 c0.62} </refract>
+</object>
+
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{x-7.00 y0.00 z10.0} </pos>
+	<dir>	{x0.0 y0.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r255 g0 b0} </rgb>
+	<reflect> {off c0.0} </reflect>
+	<spec> {off} </spec>
+	<refract> {on r1.1 c1.0} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{x0.00 y0.00 z10.0} </pos>
+	<dir>	{x0.0 y0.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r0 g250 b0} </rgb>
+	<reflect> {off c0.0} </reflect>
+	<spec> {off} </spec>
+	<refract> {on r1.2 c1.0} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{x7.00 y0.00 z10.0} </pos>
+	<dir>	{x0.0 y0.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r0 g250 b0} </rgb>
+	<reflect> {off c0.0} </reflect>
+	<spec> {off} </spec>
+	<refract> {on r1.5 c1.0} </refract>
+</object>

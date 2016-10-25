@@ -1,0 +1,47 @@
+<scene>
+	<name> {scene3} </name>
+	<maxref> {0} </maxref>
+	<res> {1000 1000} </res>
+	<AA> {1} </AA>
+	<ambiant> {0} </ambiant>
+</scene>
+
+<camera>  
+	<pos> {x0.00 y29.00 z-142.00} </pos>
+	<dir> {x0.0 y-0.30 z0.9} </dir>
+</camera>
+
+<light>
+	<pos> {x60.00 y110.00 z-100.00} </pos>
+	<rgb> {r160 g160 b160} </rgb>
+</light>
+
+<light>
+	<pos> {x60.00 y110.00 z-70.00} </pos>
+	<rgb> {r160 g160 b160} </rgb>
+</light>
+
+<light>
+	<pos> {x60.00 y110.00 z-40.00} </pos>
+	<rgb> {r160 g160 b160} </rgb>
+</light>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x0.00 y-20.00 z0.00} </pos>
+	<dir> {x0.0 y1.0 z0.0} </dir>
+	<reflect> {off} </reflect>
+	<rgb> {r240 g240 b240} </rgb>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos> {x28.00 y9.00 z-50.00} </pos>
+	<dir> {x0.0 y0.0 z0.0} </dir>
+	<radius> {10} </radius>
+	<rgb> {r240 g120 b240} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {off} </refract>
+</object>

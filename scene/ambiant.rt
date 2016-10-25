@@ -1,0 +1,32 @@
+<scene>
+	<maxref> {0} </maxref>
+	<name> 	{ambiant}	</name>
+	<res> {800 800} </res>
+	<AA> {2} </AA>
+	<ambiant> {0.5} </ambiant>
+</scene>
+
+<camera>  
+	<pos> {x0.00 y29.00 z-142.00} </pos>
+	<dir> {x0.0 y-0.30 z0.9} </dir>
+</camera>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x0.00 y-20.00 z0.00} </pos>
+	<dir> {x0.0 y1.0 z0.0} </dir>
+	<reflect> {off} </reflect>
+	<rgb> {r240 g240 b240} </rgb>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos> {x28.00 y9.00 z-50.00} </pos>
+	<dir> {x0.0 y0.0 z0.0} </dir>
+	<radius> {10} </radius>
+	<rgb> {r240 g120 b240} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {off} </refract>
+</object>

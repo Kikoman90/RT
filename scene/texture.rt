@@ -1,0 +1,68 @@
+<scene>
+	<name> 	{Textures example }	</name>
+	<res> {700 700} </res>
+	<AA> {1} </AA>
+	<maxref> {3} </maxref>
+	<ambiant> {0.5} </ambiant>
+</scene>
+
+<camera>  
+	<pos> {z-120.00 x-10.00 y8.00} </pos>
+	<dir> {x0.0 y0.0 z1.0} </dir>
+</camera>
+
+<light>
+	<pos> {x-20.00 y10.00 z-10.00} </pos>
+	<rgb> {r255 g255 b255} </rgb>
+</light>
+
+<light>
+	<pos> {x40.00 y10.00 z-40.0} </pos>
+	<rgb> {r255 g255 b255} </rgb>
+</light>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{z0.0 y17.00 x20.00} </pos>
+	<dir>	{x-15.0 y0.0 z0.0} </dir>
+	<radius>	{8} </radius>
+	<rgb> {r225 g0 b0} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {off} </refract>
+	<texture> {perlin} </texture>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{z0.0 y17.00 x38.00} </pos>
+	<dir>	{x-15.0 y0.0 z0.0} </dir>
+	<radius>	{8} </radius>
+	<rgb> {r0 g255 b0} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {on c0.3 r1.0} </refract>
+	<texture> {perlin} </texture>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x0.00 y-11.00 z0.00} </pos>
+	<dir> {x0.0 y-1.0 z0.1} </dir>
+	<reflect> {on c0.6} </reflect>
+	<rgb> {r205 g205 b205} </rgb>
+	<refract> {off} </refract>
+	<texture> { damier} </texture>
+</object>
+
+<object>
+	<type>	{sphere}         </type>
+	<pos> {z15.00 x-10.00 y10.00} 					</pos>
+	<dir> {x0.0 y0.0 z1.0} </dir>
+	<texture> {	image "earth.bmp"} </texture>
+	<radius> {30} </radius>
+	<spec> {on} </spec>
+	<rgb> {r200 g0 b200} 				</rgb>
+	<reflect> {  on c0.6} </reflect>
+	<refract> {off c0.6 r0.5} </refract>
+</object>

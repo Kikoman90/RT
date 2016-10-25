@@ -1,0 +1,65 @@
+<scene>
+	<name> 	{sphere.rt}	</name>
+	<res> {1000 1000} </res>
+	<AA> {1} </AA>
+	<maxref> {3} </maxref>
+	<ambiant> {0} </ambiant>
+</scene>
+
+<camera>  
+	<pos> {z-70.00 x-10.00 y8.00} </pos>
+	<dir> {x0.0 y0.0 z1.0} </dir>
+</camera>
+
+<light>
+	<pos> {x-20.00 y10.00 z10.00} </pos>
+	<rgb> {r255 g255 b255} </rgb>
+</light>
+
+<light>
+	<pos> {x10.00 y3.00 z45.0} </pos>
+	<rgb> {r255 g255 b255} </rgb>
+</light>
+
+<object>
+	<type> {plane} </type>
+	<pos>	{z-10.00 y-10.00 x0.00} </pos>
+	<dir>	{x0.0 y1.0 z0.0} </dir>
+	<rgb> {r54 g169 b104} </rgb>
+	<reflect> {off c0.2} </reflect>
+	<refract> {off} </refract>
+</object>
+
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{z5.0 y-3.00 x-15.00} </pos>
+	<dir>	{x-15.0 y0.0 z0.0} </dir>
+	<radius>	{5} </radius>
+	<rgb> {r225 g0 b0} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{z5.0 y-3.00 x-5.00} </pos>
+	<dir>	{x-15.0 y0.0 z0.0} </dir>
+	<radius>	{5} </radius>
+	<rgb> {r35 g225 b130} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {on c0.5 r1.0} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{z5.0 y-3.00 x5.00} </pos>
+	<dir>	{x-15.0 y0.0 z0.0} </dir>
+	<radius>	{5} </radius>
+	<rgb> {r135 g25 b130} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {on c1.0 r1.01} </refract>
+</object>

@@ -1,0 +1,109 @@
+<scene>
+	<name> {box} </name>
+	<maxref> {10} </maxref>
+	<res> {500 500} </res>
+	<AA> {4} </AA>
+	<ambiant> {0} </ambiant>
+</scene>
+
+<camera>  
+	<pos> {x0.00 y25.00 z-210.00} </pos>
+	<dir> {x0.0 y0.0 z1.0} </dir>
+</camera>
+
+<light>
+	<pos> {x-10.00 y30.00 z30.00} </pos>
+	<rgb> {r240 g240 b240} </rgb>
+</light>
+
+<light>
+	<pos> {x0.00 y0.00 z-250.00} </pos>
+	<rgb> {r240 g240 b240} </rgb>
+</light>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x60.00 y0.00 z0.00} </pos>
+	<dir> {x-1.0 y0.0 z0.0} </dir>
+	<reflect> {on c0.9} </reflect>
+	<refract> {off} </refract>
+	<rgb> {r250 g250 b250} </rgb>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x-50.00 y0.00 z0.00} </pos>
+	<dir> {x1.0 y0.0 z0.0} </dir>
+	<reflect> {on c0.9} </reflect>
+	<rgb> {r250 g250 b250} </rgb>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x00.00 y0.00 z130.00} </pos>
+	<dir> {x0.0 y0.0 z-1.0} </dir>
+	<reflect> {on c0.9} </reflect>
+	<refract> {off} </refract>
+	<rgb> {r250 g250 b250} </rgb>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x0.00 y0.00 z-405.00} </pos>
+	<dir> {x0.0 y0.0 z1.0} </dir>
+	<reflect> {on c0.9} </reflect>
+	<refract> {off} </refract>
+	<rgb> {r250 g250 b250} </rgb>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x0.00 y-11.00 z0.00} </pos>
+	<dir> {x0.0 y1.0 z0.0} </dir>
+	<reflect> {on c0.9} </reflect>
+	<refract> {off} </refract>
+	<rgb> {r250 g250 b250} </rgb>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos> {x0.00 y70.00 z0.00} </pos>
+	<dir> {x0.0 y-1.0 z0.0} </dir>
+	<reflect> {on c0.9} </reflect>
+	`<refract> {off} </refract>
+	<rgb> {r250 g250 b250} </rgb>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos> {x0.00 y0.00 z50.00} </pos>
+	<dir> {x0.0 y0.0 z0.0} </dir>
+	<radius>	{10} </radius>
+	<rgb> {r250 g50 b150} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {off} </spec>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos> {x10.00 y17.00 z60.00} </pos>
+	<dir> {x0.0 y0.0 z0.0} </dir>
+	<radius>	{10} </radius>
+	<rgb> {r50 g50 b250} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {off} </spec>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos> {x20.00 y0.00 z40.00} </pos>
+	<dir> {x0.0 y0.0 z0.0} </dir>
+	<radius>	{10} </radius>
+	<rgb> {r50 g250 b50} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {off} </spec>
+	<refract> {off} </refract>
+</object>

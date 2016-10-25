@@ -1,0 +1,90 @@
+<scene>
+	<name> 	{multiobj.rt}	</name>
+	<res> {300 300} </res>
+	<maxref> {1} </maxref>
+	<AA> {1} </AA>
+	<ambiant> {0} </ambiant>
+	<effect> {noir et blanc} </effect>
+</scene>
+
+<camera>  
+	<pos> {z-10.00 x0.00 y0.00} </pos>
+	<dir> {x0.0 y0.0 z1.0} </dir>
+</camera>
+
+<light>
+	<pos> {x0.00 y0.00 z-10.00} </pos>
+	<rgb> {r250 g250 b250} </rgb>
+</light>
+
+<object>
+	<type> {sphere} </type>
+	<pos>	{z20.00 y7.00 x7.00} </pos>
+	<dir>	{x-1.0 y0.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r50 g0 b200} </rgb>
+	<reflect> {off} </reflect>
+	<refract> {off} </refract>
+	<spec> {on} </spec>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos>	{z40.00 y-10.00 x0.00} </pos>
+	<dir>	{x0.0 y1.0 z0.0} </dir>
+	<reflect> {off} </reflect>
+	<refract> {off} </refract>
+	<rgb> {r25 g250 b0} </rgb>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos> {z50.00 y0.00 x-10.00} </pos>
+	<dir> {x-1.0 y0.0 z0.0} </dir>
+	<reflect> {off} </reflect>
+	<refract> {off} </refract>
+	<rgb> {r250 g250 b250} </rgb>
+	<texture> {perlin} </texture>
+</object>
+
+<object>
+	<type> {plane} </type>
+	<pos>	{z50.00 y0.00 x10.00} </pos>
+	<dir>	{x-1.0 y0.0 z0.0} </dir>
+	<reflect> {off} </reflect>
+	<refract> {off} </refract>
+	<rgb> {r255 g255 b255} </rgb>
+</object>
+
+<object>
+	<type> {cone} </type>
+	<pos>	{z30.00 y-4.00 x0.00} </pos>
+	<dir>	{x0.0 y-1.0 z0.0} </dir>
+	<radius>	{45} </radius>
+	<refract> {off} </refract>
+	<reflect> {off} </reflect>
+	<rgb> {r250 g0 b0} </rgb>
+
+</object>
+
+
+<object>
+	<type> {disk} </type>
+	<pos>	{z21.00 y-5.00 x7.00} </pos>
+	<dir>	{x0.0 y0.0 z-1.0} </dir>
+	<rgb> {r100 g100 b200} </rgb>
+	<radius>	{5} </radius>
+	<reflect> {off} </reflect>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {cylinder} </type>
+	<pos>	{z30.00 y0.00 x-7.00} </pos>
+	<dir>	{x0.0 y1.0 z0.0} </dir>
+	<radius>	{3} </radius>
+	<rgb> {r0 g0 b250} </rgb>
+	<refract> {off} </refract>
+	<reflect> {off} </reflect>
+	<spec> {off} </spec>
+</object>

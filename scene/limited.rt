@@ -1,0 +1,63 @@
+<scene> 
+	<maxref> {1} </maxref>
+	<name> 	{limited}	</name>
+	<res> {800 800} </res>
+	<AA> {2} </AA>
+	<ambiant> {0} </ambiant>
+</scene>
+
+<camera>  
+	<pos> {x4.50 y6.50 z5.00}        </pos>
+	<dir> {x0.1 y0.0 z0.9} </dir>
+</camera>
+
+<light>
+	<pos> {x27.50 y17.50 z0.00} </pos>
+	<rgb> {r250 g250 b250} </rgb>
+</light>
+
+<object>
+	<type> {cone} </type>
+	<pos> {x1.00 y0.00 z43.00} </pos>
+	<dir> {x0.7 y0.0 z-0.6} </dir>
+	<radius> {30} </radius>
+	<rgb> {r20 g150 b250} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<limit> {10.0} </limit>
+	<refract> {off} </refract>
+</object>
+
+<object>
+	<type> {sphere} </type>
+	<pos> {x15.00 y9.00 z45.00} </pos>
+	<dir> {x0.5 y1.0 z0.5} </dir>
+	<radius> {5} </radius>
+	<rgb> {r100 g250 b120} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {off} </refract>
+	<limit> {5.0} </limit>
+</object>
+
+<object>
+	<type> {cylinder} </type>
+	<pos>	{x10.00 y0.00 z35.00} </pos>
+	<dir>	{x0.6 y0.3 z0.7} </dir>
+	<radius>	{4} </radius>
+	<rgb> {r120 g120 b220} </rgb>
+	<reflect> {off} </reflect>
+	<spec> {on} </spec>
+	<refract> {off} </refract>
+	<limit> {20.0} </limit>
+</object>
+
+<object>
+	<type> {disk} </type>
+	<pos>	{x18.00 y3.00 z35.00} </pos>
+	<dir>	{x0.0 y0.0 z-1.0} </dir>
+	<rgb> {r199 g100 b200} </rgb>
+	<radius>	{3} </radius>
+	<reflect> {off} </reflect>
+	<refract> {off} </refract>
+</object>
