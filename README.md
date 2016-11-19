@@ -1,17 +1,17 @@
 # RT
 
-RT is a program developped be me, <a href="https://github.com/sganon">sganon</a> and <a href="https://github.com/joboyer">joboyer</a> for our learning course at 42 school for the exploration of raytracing.
+RT is a 42 project developped by <a href="https://github.com/sganon">sganon</a>, <a href="https://github.com/joboyer">joboyer</a> and me, which is designed to further students' understanding of the concepts behind raytracing.
 <img align="center" src="http://image.noelshack.com/fichiers/2016/46/1479406467-rt-limited.png" width="100%" />
 <img align="center" src="http://image.noelshack.com/fichiers/2016/46/1479406593-rt-texture.png" width="100%" />
 <img align="center" src="http://image.noelshack.com/fichiers/2016/46/1479406725-rt-sphere.png" width="100%" />
 <div align=center><img align="center" src="http://image.noelshack.com/fichiers/2016/46/1479406817-rt-hud.png" width="50%" /></div>
 
-The scene and objects parameters can be modified in real-time. This software also uses multithreading to fasten up the calculations.<br />
-The program support multiple lights and objects in a scene.<br />
-Any objects can have a coefficent of refraction (except the plane), transparency (except the plane) and reflection.<br />
-Any objects can be cut (example : a sphere become hemisphere).<br />
-Any objects can have a texture (bmp format, perlin sound or checkerboard).<br />
-The program support the filters black and white and sepia.<br />
+The scene's and objects' parameters can be modified in real-time. This software also uses multithreading to speed up calculations.<br />
+The program supports multiple lights and objects in a scene.<br />
+Any object can have a coefficent of refraction (except for the plane), transparency (except for the plane) and reflection.<br />
+Any object can be cut (example: make a hemisphere from a sphere).<br />
+Any object can have a texture (bmp format, perlin sound or checkerboard).<br />
+The program supports sepia, and black and white filters.<br />
 The proram can take a screenshot of a scene.<br />
 
 
@@ -22,8 +22,8 @@ Several options are available (see [Shortcuts](https://github.com/jfortin42/RT#s
 * Change the radius/angle of the selected object
 * Change the maximum number of reflections
 * Rotate textures
-* Change the anti-aliasing
-* Mode speed
+* Increase/decrease anti-aliasing
+* Increase processing speed (may reduce quality)
 
 
 ## Install & launch
@@ -31,7 +31,7 @@ Several options are available (see [Shortcuts](https://github.com/jfortin42/RT#s
 git clone https://github.com/jfortin42/RT ~/RT
 cd ~/RT && make && ./RT scene/scene1.rt
 ```
-You have to launch the program with a parameter. This is the name of the scene you would like to open at the execution of the program.
+Launch the program with one parameter: the name of the scene you would like to open.
 The input file has to follow a predefined layout. A parser implemented in the program will check for layout errors.<br />
 
 Example : ⇣
@@ -40,7 +40,7 @@ Example : ⇣
 ```
 ## Shortcuts
 
-Once the scene is rendered, you are able to select/unselect objects in the scene by using the <kbd>&nbsp;left mouse button&nbsp;</kbd>.
+Once the scene is rendered, you can select/unselect objects by using the <kbd>&nbsp;left mouse button&nbsp;</kbd>.
 
 <table width="100%">
 <thead>
@@ -55,7 +55,7 @@ Once the scene is rendered, you are able to select/unselect objects in the scene
 </thead>
 <tbody>
 <tr>
-<td valign="top" height="30px">Close the program</td>
+<td valign="top" height="30px">Exit the program</td>
 <td valign="top" align="center"><kbd>&nbsp;esc&nbsp;</kbd></td>
 </tr>
 <tr>
@@ -87,10 +87,10 @@ Once the scene is rendered, you are able to select/unselect objects in the scene
 <td valign="top" align="center"><kbd>&nbsp;.&nbsp;</kbd> <kbd>&nbsp;,&nbsp;</kbd></td>
 </tr>
 <tr>
-<td valign="top" height="30px">Enable/disable mode speed</td>
+<td valign="top" height="30px">Increase/decrease processing speed</td>
 <td valign="top" align="center"><kbd>&nbsp;left shift&nbsp;</kbd></td>
 </tr>
 </tbody>
 </table>
 ## Contact & contribute
-If you want to contact me, or improve RT, just send me a mail at **jfortin@student.42.fr**
+To contact me or to improve RT, feel free to send me an email at **jfortin@student.42.fr**
