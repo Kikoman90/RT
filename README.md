@@ -1,6 +1,6 @@
 # RT
 
-RT is a 42 project developped by <a href="https://github.com/sganon">sganon</a>, <a href="https://github.com/joboyer">joboyer</a> and me, which is designed to further students' understanding of the concepts behind raytracing.
+RT is a 42 project developped by <a href="https://github.com/sganon">sganon</a>, <a href="https://github.com/joboyer">joboyer</a>, <a href="https://github.com/Kikoman90">fsidler</a> and me, which is designed to further students' understanding of the concepts behind raytracing.
 <img align="center" src="http://image.noelshack.com/fichiers/2016/46/1479406467-rt-limited.png" width="100%" />
 <img align="center" src="http://image.noelshack.com/fichiers/2016/46/1479406593-rt-texture.png" width="100%" />
 <img align="center" src="http://image.noelshack.com/fichiers/2016/46/1479406725-rt-sphere.png" width="100%" />
